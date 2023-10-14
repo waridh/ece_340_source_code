@@ -50,16 +50,6 @@ xlabel("k"); ylabel("h[k]");
 % Adding subtitle for the plots
 title("h[k]");
 
-%% Plotting the convoluted signal and comparing it with the original
-% figure;
-% tiledlayout('flow');
-% nexttile;
-% stem(x3_filtered, 'Marker','.', 'MarkerSize',1);
-% xlim([0 10*(10^5)]);
-% nexttile;
-% stem(x3, 'Marker','.', 'MarkerSize', 1, 'Color', 'blue');
-
-
 %%  Question 2d
 %   Store the output in a file
 
