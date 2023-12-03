@@ -88,5 +88,5 @@ figure
 mesh([-128:127]*2/256,[-128:127]*2/256,Pabs/max(max(Pabs)));
 xlabel('Horizontal Frequency'); ylabel('Vertical Frequency');
 zlabel('Filtered Image Power Spectrum (in dB)');
-print -dtiff plot1.tiff
+print -dtiff plot2.tiff
 fprintf('\nThe filtered image power spectrum has been displayed and saved')
